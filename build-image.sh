@@ -1,9 +1,9 @@
-#!/bin/zsh
+#!/bin/bash
 
 set -x -o errexit -o pipefail
 
-REPO="alexeydorofeyev/jira"
-JIRA_VERSION="8.21.1"
+REPO="coetzeer/jira"
+JIRA_VERSION="9.5.0"
 MYSQL_DRIVER_VERSION="5.1.49"
 # tini is a small helper library for Docker containers https://github.com/krallin/tini
 # It makes sense to update.
